@@ -49,9 +49,8 @@ After completing this project, you should be comfortable with working as a team 
 
 ### :mortar_board: Demo
 
-As a team, be prepared to answer the following questions:
+As a team, you'll demo your project to Google. You should focus on your code and be prepared to answer the following questions:
 
-1. Show what you have built!
-2. How did you structure your work?
-3. What are you most proud of?
-4. What did you struggle with?
+1. How did you structure your work?
+1. What are you most proud of?
+1. What did you struggle with?
