@@ -19,7 +19,22 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+h1{
+	color: black;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 40px;
+}
 
+p{
+	color: #888;
+	font-size: 18px;
+	font-family: roboto, sans-serif;
+}
+
+button{
+	background-color: #00c853;
+	color: #fff;
+}
 .header-menu {
   width: 100%;
   box-shadow: 0 3px 2px -2px grey;
