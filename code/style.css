@@ -20,10 +20,15 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 h1 {
 	color: #000;
 	font-family: 'Roboto Slab', sans-serif;
-	font-size: 40px;
+	font-size: 60px;
+	margin-bottom: 20px;
 }
 
 h3 {
@@ -47,7 +52,6 @@ button {
 	background-color: #00c853;
 	color: #fff;
 	padding: 20px;
-	margin: 20px;
 	font-size: 18px;
 	border: none;
 }
@@ -60,7 +64,6 @@ button:hover {
 .header {
   width: 100%;
   box-shadow: 0 3px 2px -2px grey;
-	margin-bottom: 50px;
 }
 
 .header li a {
@@ -75,13 +78,7 @@ button:hover {
 
 /* Top Logo BZ so */
 .logo {
-	overflow: auto;
 	margin: 20px;
-}
-
-.logo:after {
-	content: "";
-  clear: both;
 }
 
 .logo p {
@@ -112,6 +109,34 @@ button:hover {
 	color: #448aff;
 	font-size: 14px;
 	font-family: 'Roboto', arial, sans-serif;
+}
+
+.hero-section-left {
+	width: 50%;
+	float: left;
+	padding: 70px;
+}
+
+.hero-section-left p {
+	font-size: 20px;
+}
+
+.hero-section-left button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hero-section-left button a {
+	color: white;
+}
+
+.hero-section-right {
+	width: 50%;
+	float: left;
+}
+
+.hero-section-right img {
+	width: 100%;
 }
 
 .button-next-chapter {
