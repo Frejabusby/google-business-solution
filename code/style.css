@@ -67,6 +67,7 @@ button:hover {
   background-color: #fff;
   top: 0;
   box-shadow: 0 3px 2px -2px grey;
+	z-index: 1;
 }
 
 .header li a {
@@ -109,6 +110,7 @@ button:hover {
 
 /* Hero section */
 .hero-section {
+	position: absolute;
 	margin-top: 130px;
 }
 
