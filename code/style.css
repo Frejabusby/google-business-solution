@@ -19,13 +19,20 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-h1{
-	color: black;
+
+h1 {
+	color: #000;
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 40px;
 }
 
-p{
+h3 {
+	color: #fff;
+  font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+p {
 	color: #888;
 	font-size: 18px;
 	font-family: roboto, sans-serif;
@@ -33,9 +40,10 @@ p{
 
 a {
 	text-decoration: none;
+	font-family: roboto, sans-serif;
 }
 
-button{
+button {
 	background-color: #00c853;
 	color: #fff;
 	padding: 20px;
@@ -46,6 +54,34 @@ button{
 
 button:hover {
 	background-color: #43a047;
+}
+
+/* Top Logo */
+.logo p {
+  color: #757575;
+  font-family: product sans, sans-serif;
+}
+
+/* Menu in header */
+.header-menu {
+  width: 100%;
+  box-shadow: 0 3px 2px -2px grey;
+}
+
+.header-menu li a {
+  font-family: roboto, sans-serif;
+  color: #888;
+}
+
+.header-menu li a:hover {
+  color: #448aff;
+}
+
+/* Hero section */
+.hero-section a {
+	color: #448aff;
+	font-size: 14px;
+	font-family: 'Roboto', arial, sans-serif;
 }
 
 .button-next-chapter {
@@ -61,27 +97,11 @@ button:hover {
 	background-color: #2962ff;
 }
 
-.hero-section a {
-	color: #448aff;
+/* Footer */
+footer {
+	background-color: #444;
+}
+footer a {
+	color: #a3a3a3;
 	font-size: 14px;
-	font-family: 'Roboto',arial,sans-serif;
-}
-
-.header-menu {
-  width: 100%;
-  box-shadow: 0 3px 2px -2px grey;
-}
-
-.logo p {
-  color: #757575;
-  font-family: product sans, sans-serif;
-}
-
-.header-menu li a {
-  font-family: roboto, sans-serif;
-  color: #888;
-}
-
-.header-menu li a:hover {
-  color: #448aff;
 }
