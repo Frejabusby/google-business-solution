@@ -63,6 +63,9 @@ button:hover {
 /* Menu in header */
 .header {
   width: 100%;
+	position: fixed;
+  background-color: #fff;
+  top: 0;
   box-shadow: 0 3px 2px -2px grey;
 }
 
@@ -105,6 +108,10 @@ button:hover {
 }
 
 /* Hero section */
+.hero-section {
+	margin-top: 130px;
+}
+
 .hero-section a {
 	color: #448aff;
 	font-size: 14px;
@@ -122,6 +129,7 @@ button:hover {
 }
 
 .hero-section-left button {
+	display: block;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -140,6 +148,9 @@ button:hover {
 }
 
 .button-next-chapter {
+	position: absolute;
+  bottom: 40px;
+  left: calc(50% - 20px);
 	background-color: #448aff;
 	border-radius: 100%;
 	text-align: center;
