@@ -56,33 +56,55 @@ button:hover {
 	background-color: #43a047;
 }
 
-/* Top Logo BZ so */
-.logo p {
-  color: #757575;
-  font-family: product sans, sans-serif;
-}
-
 /* Menu in header */
 .header {
   width: 100%;
-	height: 80px;
   box-shadow: 0 3px 2px -2px grey;
-
+	margin-bottom: 50px;
 }
 
 .header li a {
   font-family: roboto, sans-serif;
   color: #888;
+	font-size: 14px;
 }
 
 .header li a:hover {
   color: #448aff;
 }
-.logo img, .logo p{
-	float: left;
+
+/* Top Logo BZ so */
+.logo {
+	overflow: auto;
+	margin: 20px;
 }
-.header-menu{
-	float: right;
+
+.logo:after {
+	content: "";
+  clear: both;
+}
+
+.logo p {
+  color: #757575;
+  font-family: product sans, sans-serif;
+}
+
+.logo img, .logo p{
+	display: inline-block;
+}
+
+.logo img {
+	vertical-align: middle;
+}
+
+.header-menu {
+	text-align: right;
+	padding: 0px 20px 20px 0px;
+}
+
+.header-menu li {
+	display: inline-block;
+	margin: 0px 10px 10px 10px;
 }
 
 /* Hero section */
