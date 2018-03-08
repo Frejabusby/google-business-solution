@@ -193,8 +193,14 @@ button:hover {
 /* Advertise section */
 .advertise-section {
 	background-color: #f6f6f6;
+	color:#00c853;
 }
-
+.advertise-section a{
+	color: #00c853;
+}
+.advertise-section p{
+	color:#a3a3a3
+}
 .advertise-section-left {
 	width: 50%;
 	float: left;
