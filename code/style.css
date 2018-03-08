@@ -62,12 +62,12 @@ button:hover {
 
 /* Menu in header */
 .header {
+	z-index: 1;
   width: 100%;
 	position: fixed;
   background-color: #fff;
   top: 0;
   box-shadow: 0 3px 2px -2px grey;
-	z-index: 1;
 }
 
 .header li a {
@@ -110,8 +110,14 @@ button:hover {
 
 /* Hero section */
 .hero-section {
-	position: absolute;
 	margin-top: 130px;
+	position: absolute;
+	overflow:auto;
+}
+
+.hero-section::after {
+	content: "";
+	clear: both;
 }
 
 .hero-section a {
@@ -164,6 +170,28 @@ button:hover {
 .button-next-chapter:hover {
 	background-color: #2962ff;
 }
+
+@media (max-width: 600px) {
+		h1 {
+			font-size: 35px;
+		}
+		.hero-section-left, .hero-section-right {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 600px) and (max-width: 900px) {
+		h1 {
+			font-size: 40px;
+		}
+		.hero-section-left {
+			padding: 45px;
+		}
+		.hero-section-left p {
+			font-size: 15px;
+		}
+	}
+
 
 /* Footer */
 footer {
