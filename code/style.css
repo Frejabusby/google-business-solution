@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -25,10 +25,17 @@ time, mark, audio, video {
 }
 
 h1 {
-	color: #000;
+	color: #444444;
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 60px;
 	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	color: #444444;
+	margin: 30px 0px 20px 0px;
 }
 
 h3 {
@@ -37,10 +44,19 @@ h3 {
 	font-size: 18px;
 }
 
+h4 {
+	font-size: 14px;
+	color: #8b8b8b;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 2px solid #448aff;
+	padding-bottom: 10px;
+	width: max-content;
+}
+
 p {
 	color: #888;
 	font-size: 18px;
-	font-family: roboto, sans-serif;
+	font-family: 'roboto', sans-serif;
 }
 
 a {
@@ -111,11 +127,11 @@ button:hover {
 /* Hero section */
 .hero-section {
 	margin-top: 130px;
-	position: absolute;
+	position: relative;
 	overflow:auto;
 }
 
-.hero-section::after {
+.hero-section:after {
 	content: "";
 	clear: both;
 }
@@ -129,7 +145,7 @@ button:hover {
 .hero-section-left {
 	width: 50%;
 	float: left;
-	padding: 70px;
+	padding: 60px;
 }
 
 .hero-section-left p {
@@ -170,6 +186,20 @@ button:hover {
 .button-next-chapter:hover {
 	background-color: #2962ff;
 }
+
+/* Advertise section */
+.advertise-section {
+	background-color: #f6f6f6;
+}
+
+.advertise-section-left {
+	width: 50%;
+	float: left;
+	padding: 60px;
+}
+
+
+
 
 @media (max-width: 600px) {
 		h1 {
