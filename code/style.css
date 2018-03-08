@@ -64,7 +64,7 @@ a {
 	font-family: roboto, sans-serif;
 }
 
-button {
+button { /* all buttons =green? if els look at 39*/
 	background-color: #00c853;
 	color: #fff;
 	padding: 20px;
@@ -166,6 +166,10 @@ button:hover {
 	color: white;
 }
 
+a.button-next-chapter {
+	color: white;
+}
+
 .hero-section-right {
 	width: 50%;
 	float: left;
@@ -208,7 +212,10 @@ button:hover {
 	padding: 60px;
 }
 
-
+p.advertise-support{
+		color:#a3a3a3;
+		font-size: 12px;
+}
 
 
 @media (max-width: 600px) {
