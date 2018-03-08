@@ -96,6 +96,9 @@ button:hover {
   color: #448aff;
 }
 
+.header li a:active {
+	border-bottom: 2px solid #448aff;
+
 /* Top Logo BZ so */
 .logo {
 	margin: 20px;
