@@ -54,7 +54,7 @@ a {
 	font-family: roboto, sans-serif;
 }
 
-button {
+button { /* all buttons =green? if els look at 39*/
 	background-color: #00c853;
 	color: #fff;
 	padding: 20px;
@@ -84,6 +84,10 @@ button:hover {
 
 .header li a:hover {
   color: #448aff;
+}
+
+.header li a:active {
+	border-bottom: 2px solid #448aff;
 }
 
 /* Top Logo BZ so */
@@ -152,6 +156,10 @@ button:hover {
 	color: white;
 }
 
+a.button-next-chapter {
+	color: white;
+}
+
 .hero-section-right {
 	width: 50%;
 	float: left;
@@ -177,14 +185,26 @@ button:hover {
 	background-color: #2962ff;
 }
 
-.boxes {
-	 background-color: #f6f6f6;
-	 float: left;
-	 width: 25%;
+/* Advertise section */
+.advertise-section {
+	background-color: #f6f6f6;
+	color:#00c853;
+}
+.advertise-section a{
+	color: #00c853;
+}
+.advertise-section p{
+	color:#a3a3a3
+}
+.advertise-section-left {
+	width: 50%;
+	float: left;
+	padding: 60px;
 }
 
-.boxes-inside {
-
+p.advertise-support{
+		color:#a3a3a3;
+		font-size: 12px;
 }
 
 .boxes-text {
