@@ -31,6 +31,12 @@ h1 {
 	margin-bottom: 20px;
 }
 
+h2{
+	color: #444444;
+	font-family: 'Roboto Slab', serif;
+	font-size: 38px;
+}
+
 h3 {
 	color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -187,6 +193,7 @@ a.button-next-chapter {
 
 /* Advertise section */
 .advertise-section {
+	overflow: auto;
 	background-color: #f6f6f6;
 	color:#00c853;
 }
@@ -199,7 +206,7 @@ a.button-next-chapter {
 	color: #00c853;
 }
 .advertise-section p{
-	color:#a3a3a3
+	color:#a3a3a3;
 }
 .advertise-section-left {
 	width: 50%;
@@ -291,12 +298,17 @@ h5 {
 		}
 	}
 
-
 /* Footer */
 footer {
 	background-color: #444;
+	display: flex;
 }
+
 footer a {
 	color: #a3a3a3;
 	font-size: 14px;
+}
+
+.section-learning-support {
+
 }
