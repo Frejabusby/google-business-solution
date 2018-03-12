@@ -134,6 +134,13 @@ button:hover {
 	margin: 0px 10px 10px 10px;
 }
 
+.row {
+  display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+	width: 100%;
+}
+
 /* Hero section */
 .hero-section {
 	margin-top: 130px;
@@ -145,12 +152,6 @@ button:hover {
 	content: "";
 	clear: both;
 }
-
-/* .hero-section p {
-	color: #848484;
-	font-size: 18px;
-	font-family:roboto;
-} */
 
 .hero-section a {
 	color: #448aff;
@@ -172,7 +173,6 @@ button:hover {
 
 .hero-section-left {
 	width: 50%;
-	float: left;
 	padding: 70px;
 }
 
@@ -202,14 +202,13 @@ a.button-next-chapter {
 
 .hero-section-right {
 	width: 50%;
-	background-color: red;
-	/* float: left; */
+	background-color: #01bfa5;
 }
 
 .hero-section-right img {
-	width: 100%;
+	width: 50%;
+	position: absolute;
 	bottom: 0;
-
 }
 
 .button-next-chapter {
@@ -295,7 +294,6 @@ p.advertise-support{
 	color: #a3a3a3;
 }
 
-
 /* Footer */
 footer {
 	background-color: #444;
@@ -323,19 +321,17 @@ footer a {
 	font-size: 14px;
 }
 
-
-.hero-section {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
 @media (max-width: 600px) {
 		h1 {
 			font-size: 35px;
 		}
-		.hero-section-left, .hero-section-right, .boxes {
+		.column, .boxes {
 			width: 100%;
+		}
+
+		.hero-section-right img {
+			width: 100%;
+			position: relative;
 		}
 	}
 
@@ -343,6 +339,11 @@ footer a {
 		h1 {
 			font-size: 40px;
 		}
+
+		.boxes {
+		  width: calc(50% - 40px);
+		}
+
 		.hero-section-left {
 			padding: 45px;
 		}
