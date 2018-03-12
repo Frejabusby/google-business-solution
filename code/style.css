@@ -330,9 +330,6 @@ footer a {
 	flex-wrap: wrap;
 }
 
-
-
-
 @media (max-width: 600px) {
 		h1 {
 			font-size: 35px;
