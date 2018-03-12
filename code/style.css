@@ -168,7 +168,6 @@ button:hover {
 	font-family: 'Roboto',arial,sans-serif;
 	font-size: 16px;
   font-weight: 500;
-
 }
 
 .hero-section-left {
@@ -179,6 +178,12 @@ button:hover {
 
 .hero-section-left p {
 	font-size: 20px;
+}
+
+.hero-section-right p {
+	color: #848484;
+	font-family: 'Roboto',arial,sans-serif;
+	font-size: 14px;
 }
 
 .hero-section-left button {
@@ -197,11 +202,14 @@ a.button-next-chapter {
 
 .hero-section-right {
 	width: 50%;
-	float: left;
+	background-color: red;
+	/* float: left; */
 }
 
 .hero-section-right img {
 	width: 100%;
+	bottom: 0;
+
 }
 
 .button-next-chapter {
@@ -314,6 +322,15 @@ footer a {
 	color: #a3a3a3;
 	font-size: 14px;
 }
+
+
+.hero-section {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
 
 
 @media (max-width: 600px) {
