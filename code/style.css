@@ -168,7 +168,6 @@ button:hover {
 	font-family: 'Roboto',arial,sans-serif;
 	font-size: 16px;
   font-weight: 500;
-
 }
 
 .hero-section-left {
@@ -179,6 +178,11 @@ button:hover {
 
 .hero-section-left p {
 	font-size: 20px;
+}
+.hero-section-right{
+color: #848484;
+font-family: 'Roboto',arial,sans-serif;
+font-size: 14px;
 }
 
 .hero-section-left button {
