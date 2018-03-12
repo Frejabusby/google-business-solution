@@ -291,13 +291,23 @@ p.advertise-support{
 /* Footer */
 footer {
 	background-color: #444;
-	display: flex;
-	justify-content: center;
+	width: 100%;
+	padding: 30px 60px;
 }
 
-footer div {
+.footer-menu {
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid #8a8a8a;
+}
+
+.footer-menu div {
 	width: calc(25% - 20px);
 	margin: 20px;
+}
+
+.footer-menu h3 {
+	margin-bottom: 10px;
 }
 
 footer a {
