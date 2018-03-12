@@ -149,7 +149,7 @@ button:hover {
 
 .hero-section-left {
 	width: 50%;
-	float: left;
+	/* float: left; */
 	padding: 70px;
 }
 
@@ -173,11 +173,14 @@ a.button-next-chapter {
 
 .hero-section-right {
 	width: 50%;
-	float: left;
+	background-color: red;
+	/* float: left; */
 }
 
 .hero-section-right img {
 	width: 100%;
+	bottom: 0;
+
 }
 
 .button-next-chapter {
@@ -280,6 +283,15 @@ footer a {
 	color: #a3a3a3;
 	font-size: 14px;
 }
+
+
+.hero-section {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
 
 
 @media (max-width: 600px) {
