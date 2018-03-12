@@ -44,9 +44,10 @@ h3 {
 }
 
 h5 {
-	color: #fff;
-	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto',arial,sans-serif;
+	font-size: 20px;
+	color: #444;
+	margin-top: 30px;
 }
 
 p {
@@ -58,6 +59,10 @@ p {
 a {
 	text-decoration: none;
 	font-family: roboto, sans-serif;
+}
+
+ul {
+	list-style-type:none;
 }
 
 button { /* all buttons =green? if els look at 39*/
@@ -197,17 +202,17 @@ a.button-next-chapter {
 	background-color: #f6f6f6;
 	color:#00c853;
 }
+.advertise-section a {
+	color: #00c853;
+}
+.advertise-section p {
+	color:#a3a3a3;
+}
 
 .advertise-section-firstpart {
 	overflow: auto;
 }
 
-.advertise-section a{
-	color: #00c853;
-}
-.advertise-section p{
-	color:#a3a3a3;
-}
 .advertise-section-left {
 	width: 50%;
 	float: left;
@@ -225,29 +230,13 @@ p.advertise-support{
 		font-size: 12px;
 }
 
-/* .advertise-section-boxes {
-	width: 25%;
-} */
-
-h5 {
-	font-family: 'Roboto',arial,sans-serif;
-	font-size: 20px;
-	color: #444;
-	margin-top: 30px;
-}
-
 .advertise-section-boxes {
 	display: flex;
 	justify-content: space-around;
-
-
-
-	/* display: table; */
 }
 
 .boxes {
 	width: 25%;
-	/* display: table-cell; */
 	padding: 30px;
 	margin: 20px;
 	background-color: white;
@@ -257,11 +246,6 @@ h5 {
 .boxes-img1 {
 	height: 20%;
 	width: 20%;
-}
-
-.boxes-img2 {
-	height: 10%;
-	width: 10%;
 }
 
 .boxes-img2 {
@@ -277,6 +261,23 @@ h5 {
 	color: #a3a3a3;
 }
 
+/* Footer */
+footer {
+	background-color: #444;
+	display: flex;
+	justify-content: center;
+}
+
+footer div {
+	width: calc(25% - 20px);
+	margin: 20px;
+}
+
+footer a {
+	color: #a3a3a3;
+	font-size: 14px;
+}
+
 @media (max-width: 600px) {
 		h1 {
 			font-size: 35px;
@@ -286,7 +287,7 @@ h5 {
 		}
 	}
 
-	@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 900px) {
 		h1 {
 			font-size: 40px;
 		}
@@ -297,18 +298,3 @@ h5 {
 			font-size: 15px;
 		}
 	}
-
-/* Footer */
-footer {
-	background-color: #444;
-	display: flex;
-}
-
-footer a {
-	color: #a3a3a3;
-	font-size: 14px;
-}
-
-.section-learning-support {
-
-}
