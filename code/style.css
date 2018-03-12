@@ -243,6 +243,7 @@ p.advertise-support{
 /* Footer */
 footer {
 	background-color: #444;
+	display: flex;
 }
 
 footer a {
@@ -251,5 +252,5 @@ footer a {
 }
 
 .section-learning-support {
-  float: left;
+
 }
