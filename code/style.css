@@ -137,8 +137,12 @@ button:hover {
 .row {
   display: flex;
 	flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 	width: 100%;
+}
+
+.row:not(.hero-section) {
+	padding: 40px;
 }
 
 /* Hero section */
@@ -251,16 +255,9 @@ a.button-next-chapter {
 	overflow: auto;
 }
 
-.advertise-section-left {
-	width: 50%;
-	float: left;
-	padding: 60px;
-}
-
-.advertise-section-right {
-	width: 50%;
-	float: left;
-	padding: 60px;
+.advertise-section-left, .advertise-section-right {
+	width: calc(50% - 20px);
+	margin: 10px;
 }
 
 p.advertise-support{
@@ -276,9 +273,9 @@ p.advertise-support{
 }
 
 .boxes {
-	width: calc(25% - 40px);
+	width: calc(25% - 20px);
 	padding: 30px;
-	margin: 20px;
+	margin: 10px;
 	background-color: white;
 	position: relative;
 }
@@ -348,7 +345,7 @@ footer a {
 		}
 
 		.boxes {
-		  width: calc(50% - 40px);
+		  width: calc(50% - 20px);
 		}
 
 		.hero-section-left {
