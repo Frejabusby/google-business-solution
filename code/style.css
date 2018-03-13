@@ -163,6 +163,7 @@ button:hover {
 	font-family: 'Roboto', arial, sans-serif;
 }
 
+
 .hero-section-left {
 	width: 50%;
 	padding: 70px;
@@ -232,6 +233,25 @@ a.button-next-chapter {
 }
 .advertise-section p {
 	color:#a3a3a3;
+}
+
+.get-more p{
+	color: #848484;
+  font-family: 'Roboto',arial,sans-serif;
+	justify-content: 16px;
+	font-style: normal;
+}
+
+.our-experts {
+	color: #848484;
+	font-family: 'Roboto',arial,sans-serif;
+	font-size: 16px;
+  font-weight: 600;
+}
+
+.phone {
+width: 15px;
+height: 15px;
 }
 
 .get-more-website p{
