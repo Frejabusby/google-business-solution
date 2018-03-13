@@ -158,17 +158,24 @@ button:hover {
 	font-size: 14px;
 	font-family: 'Roboto', arial, sans-serif;
 }
-
-.get-more-website p{
+.i
+.get-more p{
 	color: #848484;
   font-family: 'Roboto',arial,sans-serif;
+	justify-content: 16px;
+	font-style: normal;
 }
 
-.our-experts p{
+.our-experts {
 	color: #848484;
 	font-family: 'Roboto',arial,sans-serif;
 	font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.phone {
+width: 15px;
+height: 15px;
 }
 
 .hero-section-left {
