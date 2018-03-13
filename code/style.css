@@ -163,18 +163,6 @@ button:hover {
 	font-family: 'Roboto', arial, sans-serif;
 }
 
-.get-more-website p{
-	color: #848484;
-  font-family: 'Roboto',arial,sans-serif;
-}
-
-.our-experts p{
-	color: #848484;
-	font-family: 'Roboto',arial,sans-serif;
-	font-size: 16px;
-  font-weight: 500;
-}
-
 .hero-section-left {
 	width: 50%;
 	padding: 70px;
@@ -200,10 +188,6 @@ button:hover {
 	color: white;
 }
 
-a.button-next-chapter {
-	color: white;
-}
-
 .hero-section-right {
 	width: 50%;
 	background-color: #01bfa5;
@@ -213,6 +197,8 @@ a.button-next-chapter {
 	width: 50%;
 	position: absolute;
 	bottom: 0;
+	object-fit: contain;
+  max-height: 100%;
 }
 
 .button-next-chapter {
@@ -231,6 +217,10 @@ a.button-next-chapter {
 	background-color: #2962ff;
 }
 
+a.button-next-chapter {
+	color: #fff;
+}
+
 /* Advertise section */
 .advertise-section {
 	overflow: auto;
@@ -243,6 +233,19 @@ a.button-next-chapter {
 .advertise-section p {
 	color:#a3a3a3;
 }
+
+.get-more-website p{
+	color: #848484;
+  font-family: 'Roboto',arial,sans-serif;
+}
+
+.our-experts p {
+	color: #848484;
+	font-family: 'Roboto',arial,sans-serif;
+	font-size: 16px;
+  font-weight: 500;
+}
+
 
 .advertise-section-firstpart {
 	overflow: auto;
