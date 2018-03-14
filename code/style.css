@@ -25,16 +25,18 @@ time, mark, audio, video {
 }
 
 h1 {
-	color: #000;
-	font-family: 'Roboto Slab', sans-serif;
-	font-size: 60px;
+	color: #444444;
+	font-family: 'Roboto Slab', serif;
+	font-size: 48px;
 	margin-bottom: 20px;
+	font-weight:300;
 }
 
 h2{
-	color: #444444;
+	color: #848484;
 	font-family: 'Roboto Slab', serif;
-	font-size: 38px;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 h3 {
@@ -45,7 +47,7 @@ h3 {
 h4{
 	font-size: 16px;
 	color: #848484;
-	font-family: Roboto, arial, sans-seri;
+	font-family: 'Roboto', arial, sans-serif;
 }
 
 h5 {
@@ -58,7 +60,8 @@ h5 {
 p {
 	color: #888;
 	font-size: 18px;
-	font-family: roboto, sans-serif;
+	font-family: 'Roboto',arial, sans-serif;
+	font-weight: 300;
 }
 
 a {
