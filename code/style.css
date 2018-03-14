@@ -281,11 +281,32 @@ p.advertise-support{
 		font-size: 12px;
 }
 
+.section-right-box {
+	background-color: white;
+	position: relative;
+}
+
+.section-right-box img {
+	width: 100%;
+}
+
+img.youtube-icon {
+	width: 10%;
+	height: auto;
+	position: absolute;
+	right: 25px;
+	bottom: 50px;
+}
+
+.section-right-box-text {
+	font-size: 12px;
+	padding: 20px;
+}
+
 .advertise-section-boxes {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-
 }
 
 .boxes {
