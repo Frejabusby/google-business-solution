@@ -338,10 +338,12 @@ img.youtube-icon {
 
 .boxes {
 	width: calc(25% - 20px);
-	padding: 30px;
+	padding: 30px 30px 45px 30px;
 	margin: 10px;
 	background-color: white;
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 .boxes a {
@@ -353,16 +355,18 @@ img.youtube-icon {
 }
 
 .boxes-img1 {
-	height: auto;
 	width: 20%;
+	height: auto;
+	object-fit: contain;
 }
 
 .boxes-img2 {
-	position: absolute;
 	width: 20px;
 	height: auto;
-	bottom: 10px;
-	right: 30px;
+	align-self: flex-end;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px;
 }
 
 .boxes-text {
@@ -380,7 +384,7 @@ footer {
 	padding: 30px 60px;
 }
 
-.footer-social-media {
+.footer-social-media, .footer-section-help {
 	display: flex;
 	flex-direction: row;
 	margin: 20px 0px;
