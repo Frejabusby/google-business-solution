@@ -91,6 +91,10 @@ span {
  transform-origin: 4px 0px;
 }
 
+nav[role=header-menu] {
+	display: none;
+}
+
 p, span {
 	color: #888;
 	font-size: 18px;
@@ -521,6 +525,15 @@ footer span {
 		h1 {
 			font-size: 35px;
 		}
+
+		nav[role=header-menu] {
+			display: block;
+		}
+
+		.header-menu {
+			display: none;
+		}
+
 		.column, .boxes {
 			width: 100%;
 		}
@@ -555,5 +568,9 @@ footer span {
 		.footer-menu .column {
 			width: calc(50% - 20px);
 			margin: 10px;
+		}
+
+		nav[role=header-menu] {
+			display: none;
 		}
 	}
