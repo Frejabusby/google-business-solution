@@ -99,7 +99,7 @@ input{
 
 nav[role=header-menu] {
 	display: none;
-	align: content
+	align: content;
 }
 
 p, span {
@@ -584,6 +584,10 @@ footer span {
 			position: relative;
 		}
 
+		.business-solutions-section {
+			width: 100%;
+		}
+
 		.footer-menu .column {
 			width: calc(100% - 20px);
 			margin: 10px;
@@ -604,6 +608,10 @@ footer span {
 		}
 		.hero-section-left p {
 			font-size: 15px;
+		}
+
+		.business-solutions-section {
+			width: calc(50% - 20px);
 		}
 
 		.footer-menu .column {
