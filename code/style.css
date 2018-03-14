@@ -79,7 +79,7 @@ input{
 	display: none;
 }
 
-span {
+.menu-bar span {
  display: block;
  width: 33px;
  height: 4px;
@@ -326,7 +326,7 @@ height: 15px;
   font-weight: 500;
 }
 
-.advertise-section-left, .advertise-section-right {
+.row-section-left, .row-section-right {
 	width: calc(50% - 20px);
 	margin: 10px 10px 50px 10px;
 }
@@ -335,7 +335,7 @@ height: 15px;
 	margin: 20px 0px;
 }
 
-.advertise-section-left h4 {
+.row-section-left h4 {
 	border-bottom: 2px solid #448aff;
 	padding-bottom: 20px;
 	width: max-content;
@@ -348,13 +348,13 @@ p.advertise-support{
 		margin: 15px 0px;
 }
 
-.advertsie-section-right-box {
+.section-right-box {
 	background-color: white;
 	position: relative;
 }
 
-.advertsie-section-right-box
-.advertise-section-youtube-img {
+.section-right-box
+.section-youtube-img {
 	width: 100%;
 }
 
@@ -411,7 +411,7 @@ p.advertise-support{
 	object-fit: scale-down;
 }
 
-.boxes-img2 {
+.icon-arrow {
 	width: 20px;
 	height: auto;
 	align-self: flex-end;
@@ -423,9 +423,8 @@ p.advertise-support{
 .boxes-text {
 	font-size: 14px;
 	color: #a3a3a3;
-	font-family: 'Roboto', arial, sans-serif;
 	font-weight: 400;
-	/* margin: 0 0 20px; */
+	line-height: 1.7;
 }
 
 .work-smarter-section {
