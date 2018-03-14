@@ -44,7 +44,8 @@ h3 {
   font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 }
-h4{
+
+h4 {
 	font-size: 16px;
 	color: #848484;
 	font-family: 'Roboto', arial, sans-serif;
@@ -54,10 +55,9 @@ h5 {
 	font-family: 'Roboto',arial,sans-serif;
 	font-size: 22px;
 	color: #444;
-	/* margin-top: 30px; */
 	font-weight: 400;
 	margin: 30px 0px 20px 0px;
-;
+
 }
 
 p, span {
@@ -153,6 +153,11 @@ button:hover {
 	padding: 40px;
 }
 
+.row button a {
+	color: white;
+	text-transform: uppercase;
+}
+
 .button-round {
 	position: absolute;
 	border-radius: 100%;
@@ -204,10 +209,6 @@ button:hover {
 	margin-bottom: 20px;
 }
 
-.hero-section-left button a {
-	color: white;
-}
-
 .hero-section-right {
 	width: 50%;
 	background-color: #01bfa5;
@@ -241,9 +242,7 @@ a.button-next-chapter {
 
 /* Advertise section */
 .advertise-section {
-	overflow: auto;
 	background-color: #f6f6f6;
-	color:#00c853;
 }
 .advertise-section a {
 	color: #00c853;
@@ -371,10 +370,10 @@ p.advertise-support{
   left: 0;
 }
 
-.boxes-img1 {
-	width: 20%;
-	height: auto;
-	object-fit: contain;
+.boxes-img-icons {
+	width: 35px;
+	height: 35px;
+	object-fit: scale-down;
 }
 
 .boxes-img2 {
@@ -392,6 +391,14 @@ p.advertise-support{
 	font-family: 'Roboto', arial, sans-serif;
 	font-weight: 400;
 	/* margin: 0 0 20px; */
+}
+
+.work-smarter-section {
+	background-color: #fff;
+}
+
+.work-smarter-section .boxes {
+	background-color: #f6f6f6;
 }
 
 /* Footer */
