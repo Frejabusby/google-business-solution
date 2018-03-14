@@ -101,6 +101,8 @@ button:hover {
 	font-size: 14px;
 }
 
+/* Hej Freja! Kanon att du städar i CSS:en! :) */
+
 .header li a:hover {
   color: #448aff;
 }
@@ -269,19 +271,26 @@ height: 15px;
   font-weight: 500;
 }
 
-
-.advertise-section-firstpart {
-	overflow: auto;
-}
-
 .advertise-section-left, .advertise-section-right {
 	width: calc(50% - 20px);
-	margin: 10px;
+	margin: 10px 10px 50px 10px;
+}
+
+.advertise-section h2 {
+	margin: 20px 0px;
+}
+
+.advertise-section-left h4 {
+	border-bottom: 2px solid #448aff;
+	padding-bottom: 20px;
+	width: max-content;
+	margin-bottom: 30px;
 }
 
 p.advertise-support{
 		color:#a3a3a3;
 		font-size: 12px;
+		margin: 15px 0px;
 }
 
 .section-right-box {
@@ -297,8 +306,8 @@ img.youtube-icon {
 	width: 10%;
 	height: auto;
 	position: absolute;
-	right: 25px;
-	bottom: 50px;
+	right: 3%;
+	bottom: 25%;
 }
 
 .section-right-box-text {
@@ -351,6 +360,22 @@ footer {
 	background-color: #444;
 	width: 100%;
 	padding: 30px 60px;
+}
+
+.footer-social-media {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 0px;
+}
+
+.footer-social-media p {
+	margin-right: 30px;
+}
+
+.footer-social-media img {
+	margin-right: 15px;
+	width: 65%;
+  height: auto;
 }
 
 .footer-menu {
