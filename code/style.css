@@ -460,7 +460,7 @@ p.advertise-support{
 }
 
 .business-solutions-section {
-	width: calc(33.33% - 30px);
+	width: calc(100% - 30px);
 	padding: 20px;
 	margin: 10px;
 }
@@ -601,6 +601,10 @@ footer span {
 			width: calc(25% - 20px);
 		}
 
+.business-solutions-section {
+			width: calc(33.33% - 20px);
+		}
+
 		.footer-menu .column {
 			width: calc(25% - 20px);
 		}
@@ -642,6 +646,10 @@ footer span {
 
 		.hero-section-left p {
 			font-size: 15px;
+		}
+
+		.business-solutions-section {
+			width: calc(50% - 20px);
 		}
 
 		.footer-menu .column {
