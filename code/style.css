@@ -452,7 +452,7 @@ p.advertise-support{
 }
 
 .business-solutions-section a {
-	font-size: 12px;
+	font-size: 14px;
 	color: blue;
 	text-decoration: none;
 	line-height: 35px;
@@ -462,6 +462,41 @@ p.advertise-support{
 	width: calc(33% - 20px);
 	margin: 10px;
 } */
+
+
+.line_yellow {
+	height: 2px;
+	width: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: yellow;
+}
+
+.line_blue {
+	height: 2px;
+	width: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: blue;
+}
+
+.line_red {
+	height: 2px;
+	width: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: red;
+}
+
+.line_green {
+	height: 2px;
+	width: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: green;
+}
+
+
 /* Footer */
 footer {
 	background-color: #444;
