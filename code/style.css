@@ -188,7 +188,7 @@ button:hover {
 .row {
   display: flex;
 	flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 	width: 100%;
 }
 
@@ -461,7 +461,7 @@ p.advertise-support{
 	font-size: 14px;
 	color: blue;
 	text-decoration: none;
-	line-height: 35px;
+	line-height: 1.3;
 }
 
 
