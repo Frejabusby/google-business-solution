@@ -377,6 +377,35 @@ img.youtube-icon {
 	/* margin: 0 0 20px; */
 }
 
+/* Explore all business solutions */
+
+.business-solutions {
+		width: 100%;
+		/* padding: 30px 60px; */
+		display: flex;
+		flex-direction: row;
+		flex-flow: wrap;
+}
+
+.business-solutions-section {
+	width: calc(33.33% - 30px);
+	padding: 20px;
+	margin: 10px;
+}
+
+.business-solutions-section a {
+	font-size: 12px;
+	color: blue;
+	text-decoration: none;
+	line-height: 35px;
+}
+
+/* .business-solutions .column {
+	width: calc(33% - 20px);
+	margin: 10px;
+} */
+
+
 /* Footer */
 footer {
 	background-color: #444;
