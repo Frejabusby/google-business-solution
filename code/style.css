@@ -157,12 +157,6 @@ button:hover {
 .hero-section {
 	margin-top: 130px;
 	position: relative;
-	overflow:auto;
-}
-
-.hero-section::after {
-	content: "";
-	clear: both;
 }
 
 .hero-section a {
@@ -170,7 +164,6 @@ button:hover {
 	font-size: 14px;
 	font-family: 'Roboto', arial, sans-serif;
 }
-
 
 .hero-section-left {
 	width: 50%;
@@ -222,6 +215,17 @@ button:hover {
 	padding: 10px;
 }
 
+.button-next-chapter img {
+	width: 40%;
+  object-fit: cover;
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 .button-next-chapter:hover {
 	background-color: #2962ff;
 }
@@ -262,7 +266,7 @@ width: 15px;
 height: 15px;
 }
 
-.call-us{
+.call-us {
 	font-weight: 400;
 	font-size: 20px;
 	font-family: 'Roboto',arial,sans-serif;
