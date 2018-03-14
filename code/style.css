@@ -84,6 +84,10 @@ input{
 	display: none;
 }
 
+.menu-bar {
+  align-self: flex-end;
+}
+
 .menu-bar span {
  display: block;
  width: 33px;
@@ -98,7 +102,7 @@ input{
 
 nav[role=header-menu] {
 	display: flex;
-	justify-content: flex-end;
+	flex-direction: column;
 }
 
 
