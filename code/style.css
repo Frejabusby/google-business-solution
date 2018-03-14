@@ -362,7 +362,7 @@ footer {
 	padding: 30px 60px;
 }
 
-.footer-social-media {
+.footer-social-media, .footer-section-help {
 	display: flex;
 	flex-direction: row;
 	margin: 20px 0px;
