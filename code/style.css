@@ -435,14 +435,15 @@ p.advertise-support{
 
 .work-smarter-section {
 	background-color: #fff;
+	width: 100%;
 }
 
 .work-smarter-section .boxes {
 	background-color: #f6f6f6;
 }
 
-/* Explore all business solutions */
 
+/* Explore all business solutions */
 .business-solutions {
 		width: 100%;
 		/* padding: 30px 60px; */
