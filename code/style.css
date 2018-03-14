@@ -342,6 +342,7 @@ img.youtube-icon {
 .boxes-img1 {
 	width: 20%;
 	height: auto;
+	object-fit: contain;
 }
 
 .boxes-img2 {
