@@ -153,16 +153,28 @@ button:hover {
 	padding: 40px;
 }
 
+.button-round {
+	position: absolute;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+}
+
+.button-round img {
+  object-fit: cover;
+	position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 /* Hero section */
 .hero-section {
 	margin-top: 130px;
 	position: relative;
-	overflow:auto;
-}
-
-.hero-section::after {
-	content: "";
-	clear: both;
 }
 
 .hero-section a {
@@ -170,7 +182,6 @@ button:hover {
 	font-size: 14px;
 	font-family: 'Roboto', arial, sans-serif;
 }
-
 
 .hero-section-left {
 	width: 50%;
@@ -211,15 +222,13 @@ button:hover {
 }
 
 .button-next-chapter {
-	position: absolute;
-  bottom: 40px;
-  left: calc(50% - 20px);
-	background-color: #448aff;
-	border-radius: 100%;
-	text-align: center;
-	width: 40px;
-	height: 40px;
-	padding: 10px;
+  background-color: #448aff;
+	left: calc(50% - 25px);
+	bottom: 40px;
+}
+
+.button-next-chapter img {
+  width: 30%;
 }
 
 .button-next-chapter:hover {
@@ -262,7 +271,7 @@ width: 15px;
 height: 15px;
 }
 
-.call-us{
+.call-us {
 	font-weight: 400;
 	font-size: 20px;
 	font-family: 'Roboto',arial,sans-serif;
@@ -305,22 +314,16 @@ p.advertise-support{
 		margin: 15px 0px;
 }
 
-.section-right-box {
+.advertsie-section-right-box {
 	background-color: white;
 	position: relative;
 }
 
-.section-right-box img {
+.advertsie-section-right-box
+.advertise-section-youtube-img {
 	width: 100%;
 }
 
-img.youtube-icon {
-	width: 10%;
-	height: auto;
-	position: absolute;
-	right: 3%;
-	bottom: 25%;
-}
 
 .section-right-box-text {
 	padding: 20px;
@@ -328,6 +331,20 @@ img.youtube-icon {
 	font-size: 14px;
 	color: #848484;
 	font-weight: 400;
+}
+
+.button-youtube {
+	background-color: #ff5151;
+	right: 20px;
+  bottom: 60px;
+}
+
+.button-youtube img {
+		width: 40%;
+}
+
+.button-youtube:hover {
+  background: #d50000;
 }
 
 .advertise-section-boxes {
