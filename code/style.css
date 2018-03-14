@@ -446,6 +446,9 @@ p.advertise-support{
 	background-color: #f6f6f6;
 }
 
+.row .measure-learn-section {
+	width: 100%;
+}
 
 /* Explore all business solutions */
 .business-solutions {
