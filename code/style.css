@@ -59,13 +59,12 @@ h5 {
 	margin: 30px 0px 20px 0px;
 }
 
-#menu{
+#menu {
 	display: none;
 	font-size: 16px;
 	font-family:"Roboto", arial, sans-serif;
 	justify-content: flex-end;
 	margin: 15px;
-	/* padding: 15px; */
 }
 
 #menu li{
@@ -78,10 +77,6 @@ padding: 5px;
 
 input:checked + #menu{
 	display: block;
-}
-
-input{
-	display: none;
 }
 
 .menu-bar {
@@ -229,7 +224,7 @@ button:hover {
 
 /* Hero section */
 .hero-section {
-	margin-top: 130px;
+	margin-top: 150px;
 	position: relative;
 }
 
@@ -360,7 +355,7 @@ p.advertise-support{
 }
 
 .section-right-box {
-	background-color: white;
+	background-color: #fff;
 	position: relative;
 }
 
@@ -440,6 +435,10 @@ p.advertise-support{
 .work-smarter-section {
 	background-color: #fff;
 	width: 100%;
+}
+
+.work-smarter-section .section-right-box {
+	background-color: #f6f6f6;
 }
 
 .work-smarter-section .boxes {
