@@ -601,6 +601,10 @@ footer span {
 			width: calc(25% - 20px);
 		}
 
+.boxes:hover {
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
 .business-solutions-section {
 			width: calc(33.33% - 20px);
 		}
