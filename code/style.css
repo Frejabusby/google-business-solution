@@ -176,7 +176,7 @@ nav[role=header-menu] {
 .header-menu {
   display: none;
   text-align: right;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 .header-menu li {
@@ -223,7 +223,7 @@ nav[role=header-menu] {
 
 /* Hero section */
 .hero-section {
-  margin-top: 150px;
+  margin-top: 130px;
   position: relative;
 }
 
@@ -280,6 +280,35 @@ a.button-next-chapter {
   color: #fff;
 }
 
+.row-section-left h4 {
+  border-bottom: 2px solid #448aff;
+  padding-bottom: 20px;
+  width: max-content;
+  margin-bottom: 30px;
+}
+
+.row-section-left, .row-section-right {
+  width: 100%;
+  margin: 10px 10px 50px 10px;
+}
+
+.section-right-box {
+  background-color: #fff;
+  position: relative;
+}
+
+.section-right-box .section-youtube-img {
+  width: 100%;
+}
+
+.section-right-box-text {
+  padding: 20px;
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 14px;
+  color: #848484;
+  font-weight: 400;
+}
+
 /* Advertise section */
 .advertise-section {
   background-color: #f6f6f6;
@@ -291,6 +320,10 @@ a.button-next-chapter {
 
 .advertise-section p {
   color: #a3a3a3;
+}
+
+.advertise-section h2 {
+  margin: 20px 0px;
 }
 
 .get-more p {
@@ -331,43 +364,10 @@ a.button-next-chapter {
   font-weight: 500;
 }
 
-.row-section-left, .row-section-right {
-  width: 100%;
-  margin: 10px 10px 50px 10px;
-}
-
-.advertise-section h2 {
-  margin: 20px 0px;
-}
-
-.row-section-left h4 {
-  border-bottom: 2px solid #448aff;
-  padding-bottom: 20px;
-  width: max-content;
-  margin-bottom: 30px;
-}
-
 p.advertise-support {
   color: #a3a3a3;
   font-size: 12px;
   margin: 15px 0px;
-}
-
-.section-right-box {
-  background-color: #fff;
-  position: relative;
-}
-
-.section-right-box .section-youtube-img {
-  width: 100%;
-}
-
-.section-right-box-text {
-  padding: 20px;
-  font-family: 'Roboto', arial, sans-serif;
-  font-size: 14px;
-  color: #848484;
-  font-weight: 400;
 }
 
 .button-youtube {
@@ -464,7 +464,11 @@ p.advertise-support {
   font-size: 14px;
   color: #448aff;
   text-decoration: none;
-  line-height: 1.3;
+  line-height: 1.6;
+}
+
+.business-solutions-section a:hover {
+	color: #2962ff;
 }
 
 .line_yellow, .line_blue, .line_red, .line_green {
